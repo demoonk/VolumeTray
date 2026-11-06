@@ -1,0 +1,7 @@
+﻿// Имя ресурса должно быть ЧИСЛОМ: windres хранит символьные имена как UTF-16LE
+// строку, и MAKEINTRESOURCE(101) такое имя не находит -> fallback IDI_APPLICATION.
+// Путь в .rc — C-строка: разделитель пишется как "\\" (иначе \a -> BEL).
+101 ICON "icons\\app.ico"
+
+// RT_MANIFEST = 24, CREATEPROCESS_MANIFEST_RESOURCE_ID = 1.
+1 24 "manifest.txt"

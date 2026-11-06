@@ -1,0 +1,4 @@
+*.log
+*.res
+build/
+VolumeTray.exe
